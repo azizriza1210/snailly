@@ -136,8 +136,8 @@ def selenium_scrap(url) :
     
 
 def selenium_scrap_twitter(url) :
-    username = "azzzzz28463957"
-    password = "S41fa1Ip"
+    username = "username"
+    password = "password"
 
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -150,8 +150,8 @@ def selenium_scrap_twitter(url) :
     driver.get("https://twitter.com")
     time.sleep(2)
 
-    username = "snail3976"
-    password = "snail011013"
+    username = "username"
+    password = "password"
 
     element_signIn = driver.find_element(By.XPATH, "//a[@data-testid='loginButton']")
     element_signIn.click()      

@@ -18,8 +18,8 @@ url = "https://twitter.com"
 driver.get(url)
 time.sleep(2)
 
-username = "azzzzz28463957"
-password = "S41fa1Ip"
+username = "username"
+password = "password"
 
 element_signIn = driver.find_element(By.XPATH, "//a[@data-testid='loginButton']")
 element_signIn.click()
